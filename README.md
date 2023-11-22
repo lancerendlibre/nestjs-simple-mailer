@@ -3,10 +3,17 @@
 A simple email sending service build with nestjs.
 
 ## Installation
-
+Step 1:
 ```bash
 $ pnpm install
 ```
+Step 2:
+```bash
+$ cp env.example .env
+```
+
+And change set all the corresponding values, otherwise the app won't start.
+
 
 ## Running the app
 
@@ -31,7 +38,7 @@ $ pnpm run start:prod
 }
 ```
 
-or a curl command
+or a `curl` command against the app running locally:
 
 ```shell
 $ curl -X POST \
